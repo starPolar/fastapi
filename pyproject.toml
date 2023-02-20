@@ -1,0 +1,22 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "starPolar", email = "kck555511@naver.com"},
+]
+dependencies = [
+    "fastapi>=0.92.0",
+    "uvicorn[standard]>=0.20.0",
+    "mangum>=0.17.0",
+    "gunicorn>=20.1.0",
+    "pre-commit>=2.21.0",
+]
+requires-python = ">=3.7"
+license = {text = "SP"}
+
+[tool.pdm]
+
+[build-system]
+requires = ["pdm-pep517>=1.0"]
+build-backend = "pdm.pep517.api"
